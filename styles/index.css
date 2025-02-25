@@ -1,0 +1,72 @@
+body {background-color: #F5F1E9;}
+/* ======================================================= 헤더 */
+header {
+  width: 100%; max-width: 1600px; margin: 0 auto; padding: 20px 0;
+  display: flex; justify-content: space-between; align-items: center;
+}
+header h1 {}
+header h1 a {display: flex; align-items: center; font-size: 0.94rem; letter-spacing: -0.02em;}
+header h1 a img {width: 24px; height: 24px; margin-right: 6px;}
+header p {font-size: 0.94rem; letter-spacing: -0.02em;}
+/* ======================================================= 메인 */
+main {}
+/* ======================================================= 슬라이드 시작(공통) */
+main .m_swiper {width: 100%; max-width: 1600px; height: calc(100vh - 64px);}
+main .m_swiper .swiper-wrapper {}
+main .m_swiper .swiper-wrapper .swiper-slide {}
+/* ======================================================= index */
+main .m_swiper .swiper-wrapper #index {display: flex; flex-flow: column nowrap;}
+main .m_swiper .swiper-wrapper #index .title {height: calc(100% - 64px); display: flex; flex-flow: column nowrap; justify-content: center;}
+main .m_swiper .swiper-wrapper #index .title p {font-size: 1.25rem; font-weight: 500; letter-spacing: -0.02em; margin-bottom: 10px;}
+main .m_swiper .swiper-wrapper #index .title .sub_t1 {font-size: 1.88rem; margin-bottom: 30px;}
+main .m_swiper .swiper-wrapper #index .title .sub_t2 {font-size: 5rem;  margin-bottom: 30px;}
+main .m_swiper .swiper-wrapper #index .title h1 {font-size: 6.25rem; font-weight: 700; line-height: 1.05; margin-bottom: 30px;}
+main .m_swiper .swiper-wrapper #index .btm {width: 100%; padding: 20px 0;}
+main .m_swiper .swiper-wrapper #index .btm p {font-size: 0.94rem; letter-spacing: -0.02em;}
+main .m_swiper .swiper-wrapper #index .btm .contact_name {font-weight: 600; margin-bottom: 10px;}
+main .m_swiper .swiper-wrapper #index .btm .contact_email {}
+/* ======================================================= profile */
+main .m_swiper .swiper-wrapper #profile {}
+main .m_swiper .swiper-wrapper #profile .profile_contents {}
+main .m_swiper .swiper-wrapper #profile .profile_contents .photo {}
+main .m_swiper .swiper-wrapper #profile .profile_contents .photo img {}
+main .m_swiper .swiper-wrapper #profile .profile_contents .name {}
+main .m_swiper .swiper-wrapper #profile .profile_contents .name p {}
+main .m_swiper .swiper-wrapper #profile .profile_contents .name .kr_name {}
+main .m_swiper .swiper-wrapper #profile .profile_contents .name .en_name {}
+main .m_swiper .swiper-wrapper #profile .profile_contents .detail {}
+main .m_swiper .swiper-wrapper #profile .profile_contents .detail li {}
+main .m_swiper .swiper-wrapper #profile .profile_contents .detail li img {}
+main .m_swiper .swiper-wrapper #profile .profile_contents .detail li em {}
+main .m_swiper .swiper-wrapper #profile .profile_contents .detail li span {}
+/* ======================================================= profile - abil */
+main .m_swiper .swiper-wrapper #profile .abil_contents {}
+main .m_swiper .swiper-wrapper #profile .abil_contents .contents_title {}
+main .m_swiper .swiper-wrapper #profile .abil_contents .contents_title .abil_wrap {}
+main .m_swiper .swiper-wrapper #profile .abil_contents .contents_title .abil_wrap li {}
+main .m_swiper .swiper-wrapper #profile .abil_contents .contents_title .abil_wrap li div {}
+main .m_swiper .swiper-wrapper #profile .abil_contents .contents_title .abil_wrap li .icon_graph {}
+main .m_swiper .swiper-wrapper #profile .abil_contents .contents_title .abil_wrap li .icon_graph img {}
+main .m_swiper .swiper-wrapper #profile .abil_contents .contents_title .abil_wrap li .txt {}
+main .m_swiper .swiper-wrapper #profile .abil_contents .contents_title .abil_wrap li .txt em {}
+main .m_swiper .swiper-wrapper #profile .abil_contents .contents_title .abil_wrap li .txt span {}
+/* ======================================================= profile - edu */
+main .m_swiper .swiper-wrapper #profile .career_edu_contents {}
+main .m_swiper .swiper-wrapper #profile .career_edu_contents .title_wrap {}
+main .m_swiper .swiper-wrapper #profile .career_edu_contents .title_wrap .contents_title {}
+main .m_swiper .swiper-wrapper #profile .career_edu_contents .year_wrap {}
+main .m_swiper .swiper-wrapper #profile .career_edu_contents .year_wrap li {}
+main .m_swiper .swiper-wrapper #profile .career_edu_contents .year_wrap li em {}
+main .m_swiper .swiper-wrapper #profile .career_edu_contents .year_wrap li span {}
+main .m_swiper .swiper-wrapper #profile .career_edu_contents .year_wrap li.edu {}
+main .m_swiper .swiper-wrapper #profile .career_edu_contents .year_wrap li.career {}
+/* ======================================================= uiux 01 */
+main .m_swiper .swiper-wrapper #uiux_01 {}
+/* ======================================================= uiux 02 */
+main .m_swiper .swiper-wrapper #uiux_02 {}
+/* ======================================================= uiux 03 */
+main .m_swiper .swiper-wrapper #uiux_03 {}
+/* ======================================================= uiux 04 */
+main .m_swiper .swiper-wrapper #uiux_04 {}
+/* ======================================================= graphic */
+main .m_swiper .swiper-wrapper #graphic {}
