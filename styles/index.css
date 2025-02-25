@@ -28,8 +28,8 @@ main .m_swiper .swiper-wrapper #index .btm .contact_email {}
 /* ======================================================= profile */
 main .m_swiper .swiper-wrapper #profile {}
 main .m_swiper .swiper-wrapper #profile .profile_contents {}
-main .m_swiper .swiper-wrapper #profile .profile_contents .photo {}
-main .m_swiper .swiper-wrapper #profile .profile_contents .photo img {}
+main .m_swiper .swiper-wrapper #profile .profile_contents .photo {width: 140px; border-radius: 12px;}
+main .m_swiper .swiper-wrapper #profile .profile_contents .photo img {width: 100%;}
 main .m_swiper .swiper-wrapper #profile .profile_contents .name {}
 main .m_swiper .swiper-wrapper #profile .profile_contents .name p {}
 main .m_swiper .swiper-wrapper #profile .profile_contents .name .kr_name {}
