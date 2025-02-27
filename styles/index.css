@@ -1,4 +1,4 @@
-body {background-color: #F5F1E9;}
+body {background-color: #F5F1E9; width: 1920px;}/* 반응형 제작 시 width 삭제 */
 /* ======================================================= 헤더 */
 header {padding: 0 80px;}
 header .hd_bg {
@@ -265,50 +265,59 @@ main .popup_bg {
 main .popup_bg .scroll_wrap {width: 600px; height: 80vh; overflow: auto; margin: 100px auto;}
 main .popup_bg .scroll_wrap img {width: 100%;}
 /* ======================================================= sns 스와이퍼 백그라운드 이미지 */
+main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .sns_swiper .swiper-wrapper .swiper-slide {
+  background-position: center; background-repeat: no-repeat; background-size:cover;
+}
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .sns_swiper .swiper-wrapper .sns_01 {
-  background-image: url(../images/sns_01.jpg); background-position: center; background-repeat: no-repeat; background-size:contain;
+  background-image: url(../images/sns_01.jpg);
 }
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .sns_swiper .swiper-wrapper .sns_02 {
-  background-image: url(../images/sns_02.jpg); background-position: center; background-repeat: no-repeat; background-size:contain;
+  background-image: url(../images/sns_02.jpg);
 }
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .sns_swiper .swiper-wrapper .sns_03 {
-  background-image: url(../images/sns_03.jpg); background-position: center; background-repeat: no-repeat; background-size:contain;
+  background-image: url(../images/sns_03.jpg);
 }
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .sns_swiper .swiper-wrapper .sns_04 {
-  background-image: url(../images/sns_04.jpg); background-position: center; background-repeat: no-repeat; background-size:contain;
+  background-image: url(../images/sns_04.jpg);
 }
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .sns_swiper .swiper-wrapper .sns_05 {
-  background-image: url(../images/sns_05.jpg); background-position: center; background-repeat: no-repeat; background-size:contain;
+  background-image: url(../images/sns_05.jpg);
 }
 /* ======================================================= bnr 스와이퍼 백그라운드 이미지 */
+main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .bnr_swiper .swiper-wrapper .swiper-slide {
+  background-position: center; background-repeat: no-repeat; background-size:cover;
+}
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .bnr_swiper .swiper-wrapper .bnr_01 {
-  background-image: url(../images/bnr_01.jpg); background-position: center; background-repeat: no-repeat; background-size:contain;
+  background-image: url(../images/bnr_01.jpg);
 }
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .bnr_swiper .swiper-wrapper .bnr_02 {
-  background-image: url(../images/bnr_02.jpg); background-position: center; background-repeat: no-repeat; background-size:contain;
+  background-image: url(../images/bnr_02.jpg);
 }
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .bnr_swiper .swiper-wrapper .bnr_03 {
-  background-image: url(../images/bnr_03.jpg); background-position: center; background-repeat: no-repeat; background-size:contain;
+  background-image: url(../images/bnr_03.jpg);
 }
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .bnr_swiper .swiper-wrapper .bnr_04 {
-  background-image: url(../images/bnr_04.jpg); background-position: center; background-repeat: no-repeat; background-size:contain;
+  background-image: url(../images/bnr_04.jpg);
 }
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .bnr_swiper .swiper-wrapper .bnr_05 {
-  background-image: url(../images/bnr_05.jpg); background-position: center; background-repeat: no-repeat; background-size:contain;
+  background-image: url(../images/bnr_05.jpg);
 }
 /* ======================================================= detailed 스와이퍼 백그라운드 이미지 */
+main .m_swiper .swiper-wrapper #graphic .slide_container .right_contents .detailed_swiper .swiper-wrapper .swiper-slide {
+  background-position: top; background-repeat: no-repeat; background-size:cover;
+}
 main .m_swiper .swiper-wrapper #graphic .slide_container .right_contents .detailed_swiper .swiper-wrapper .detailed_01 {
-  background-image: url(../images/detail_01.jpg); background-position: top; background-repeat: no-repeat; background-size:cover;
+  background-image: url(../images/detail_01.jpg);
 }
 main .m_swiper .swiper-wrapper #graphic .slide_container .right_contents .detailed_swiper .swiper-wrapper .detailed_02 {
-  background-image: url(../images/detail_02.jpg); background-position: top; background-repeat: no-repeat; background-size:cover;
+  background-image: url(../images/detail_02.jpg);
 }
 main .m_swiper .swiper-wrapper #graphic .slide_container .right_contents .detailed_swiper .swiper-wrapper .detailed_03 {
-  background-image: url(../images/detail_03.jpg); background-position: top; background-repeat: no-repeat; background-size:cover;
+  background-image: url(../images/detail_03.jpg);
 }
 main .m_swiper .swiper-wrapper #graphic .slide_container .right_contents .detailed_swiper .swiper-wrapper .detailed_04 {
-  background-image: url(../images/detail_04.jpg); background-position: top; background-repeat: no-repeat; background-size:cover;
+  background-image: url(../images/detail_04.jpg);
 }
 main .m_swiper .swiper-wrapper #graphic .slide_container .right_contents .detailed_swiper .swiper-wrapper .detailed_05 {
-  background-image: url(../images/detail_05.jpg); background-position: top; background-repeat: no-repeat; background-size:cover;
+  background-image: url(../images/detail_05.jpg);
 }

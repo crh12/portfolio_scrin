@@ -62,7 +62,6 @@ const snsSwiper = new Swiper('.sns_swiper', {
   loop:true,
   speed:6000,
   slidesPerView:2.5,
-  spaceBetween:10,
 });
 
 const bnrSwiper = new Swiper('.bnr_swiper', {
@@ -70,7 +69,6 @@ const bnrSwiper = new Swiper('.bnr_swiper', {
   loop:true,
   speed:4000,
   slidesPerView:2,
-  spaceBetween:10,
 });
 
 const detailedSwiper = new Swiper('.detailed_swiper', {
@@ -81,7 +79,8 @@ const detailedSwiper = new Swiper('.detailed_swiper', {
 
 sns.forEach((target, index)=>{
   target.addEventListener('click',()=>{
-    popup_bg.style.display = 'block'
+    popup_bg.style.display = 'block';
+    popup_bg.children[0].scrollTo(0,0);
     popup_bg.children[0].children[0].src = `./images/sns_0${index + 1}.jpg`;
     popup_bg.children[0].style.width = '600px';
     popup_bg.children[0].style.marginTop = '100px';
@@ -90,7 +89,8 @@ sns.forEach((target, index)=>{
 
 bnr.forEach((target, index)=>{
   target.addEventListener('click',()=>{
-    popup_bg.style.display = 'block'
+    popup_bg.style.display = 'block';
+    popup_bg.children[0].scrollTo(0,0);
     popup_bg.children[0].children[0].src = `./images/bnr_0${index + 1}.jpg`;
     popup_bg.children[0].style.width = '900px';
     popup_bg.children[0].style.marginTop = '250px';
@@ -99,7 +99,8 @@ bnr.forEach((target, index)=>{
 
 detail.forEach((target, index)=>{
   target.addEventListener('click',()=>{
-    popup_bg.style.display = 'block'
+    popup_bg.style.display = 'block';
+    popup_bg.children[0].scrollTo(0,0);
     popup_bg.children[0].children[0].src = `./images/detail_0${index + 1}.jpg`;
     popup_bg.children[0].style.width = '500px';
     popup_bg.children[0].style.marginTop = '100px';
