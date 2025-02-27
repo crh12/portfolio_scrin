@@ -1,0 +1,6 @@
+aside .round_txt_wrap {animation: rotate360 30s linear infinite; /* animation-play-state:paused; */}
+/* ======================================================= 애니메이션 */
+@keyframes rotate360 {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(360deg);}
+}

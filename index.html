@@ -6,6 +6,9 @@
     <title>2025 DESIGN PORTFOLIO | Song Chae Rin</title>
     <!-- 웹글꼴 / 파비콘 -->
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/ungveloper/web-fonts/SCoreDream/font-face.css" />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/ungveloper/web-fonts/SCoreDream/font-family.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <link rel="icon" href="./images/logo.png" type="image/x-icon">
     <!-- 슬라이더 -->
@@ -14,15 +17,27 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/animation.css">
     <!-- JS -->
     <script src="./scripts/index.js" defer></script>
 </head>
 <body>
     <!-- ======================================================= 헤더 -->
     <header>
-        <h1><a href="#"><img src="./images/logo.png" alt="">SONG CHAE RIN</a></h1>
-        <p>WEB DESIGN & PUBLISH</p><!-- 슬라이드 반응 텍스트 -->
+        <div class="hd_bg">
+            <h1><a href="#">
+                <img src="./images/logo.png" alt="">
+                <span>SONG CHAE RIN</span>
+            </a></h1>
+            <p>WEB DESIGN & PUBLISH</p><!-- 슬라이드 반응 텍스트 -->
+        </div>
     </header>
+    <!-- ======================================================= 상단 오른쪽 텍스트 -->
+    <aside>
+        <div class="round_txt_wrap">
+            <img src="./images/round_txt.png" alt="2025 design portfolio">
+        </div>
+    </aside>
     <!-- ======================================================= 메인 -->
     <main>
         <!-- =========================================== 슬라이드 시작 -->
@@ -30,170 +45,521 @@
             <div class="swiper-wrapper">
                 <!-- =========================================== index -->
                 <div class="swiper-slide" id="index">
-                    <div class="title">
-                        <p class="sub_t1">2025</p>
-                        <p class="sub_t2">DESIGN</p>
-                        <h1>PORT―<br>FOLIO</h1>
-                        <p>WEB DESIGN</p>
-                        <p>UI / UX</p>
-                        <p>GRAPHIC DESIGN</p>
-                    </div>
-                    <div class="btm">
-                        <p class="contact_name">송채린</p>
-                        <p class="contact_email">scrin012@gmail.com</p>
+                    <div class="slide_container">
+                        <div class="title">
+                            <p class="sub_t1">2025</p>
+                            <p class="sub_t2">DESIGN</p>
+                            <h1>PORT―<br>FOLIO</h1>
+                            <p>WEB DESIGN</p>
+                            <p>UI / UX</p>
+                            <p>GRAPHIC DESIGN</p>
+                        </div>
+                        <div class="btm">
+                            <p class="contact_name">송채린</p>
+                            <p class="contact_email">scrin012@gmail.com</p>
+                        </div>
                     </div>
                 </div>
                 <!-- =========================================== profile -->
                 <div class="swiper-slide" id="profile">
-                    <div class="profile_contents">
-                        <div class="photo">
-                            <img src="./images/photo.jpg" alt="">
+                    <div class="slide_container">
+                        <div class="profile_contents">
+                            <div class="photo">
+                                <img src="./images/photo.jpg" alt="">
+                            </div>
+                            <div class="name">
+                                <p class="kr_name">송채린</p>
+                                <p class="en_name">:: Song Chae Rin</p>
+                            </div>
+                            <ul class="detail">
+                                <li>
+                                    <img src="./images/calender.png" alt="">
+                                    <em>Birth</em>
+                                    <span>1994. 11. 20</span>
+                                </li>
+                                <li>
+                                    <img src="./images/mobile.png" alt="">
+                                    <em>Mobile</em>
+                                    <span>010 - 3000 - 9030</span>
+                                </li>
+                                <li>
+                                    <img src="./images/mail.png" alt="">
+                                    <em>E - mail</em>
+                                    <span>scrin012 @ gmail.com</span>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="name">
-                            <p class="kr_name">송채린</p>
-                            <p class="en_name">:: Song Chae Rin</p>
+                        <div class="abil_contents">
+                            <p class="contents_title">Abilities ;</p>
+                            <ul class="abil_wrap">
+                                <li>
+                                    <div class="icon_graph">
+                                        <img src="./images/icon_graph_ex.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <em>UI/UX</em>
+                                        <span>사용자 리서치, 레퍼런스 조사 분석</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon_graph">
+                                        <img src="./images/icon_graph_ex.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <em>Figma</em>
+                                        <span>UIUX 와이어프레임, 프로토타입 설계</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon_graph">
+                                        <img src="./images/icon_graph_ex.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <em>Photoshop</em>
+                                        <span>웹, 배너광고, 상세 디자인 제작</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon_graph">
+                                        <img src="./images/icon_graph_ex.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <em>Illustrator</em>
+                                        <span>로고, 캐릭터 디자인 제작</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon_graph">
+                                        <img src="./images/icon_graph_ex.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <em>HTML5</em>
+                                        <span>웹표준 기준 마크업 설계</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon_graph">
+                                        <img src="./images/icon_graph_ex.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <em>CSS3</em>
+                                        <span>반응형 웹부터 애니메이션까지 다양한 디자인</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon_graph">
+                                        <img src="./images/icon_graph_ex.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <em>Javascript</em>
+                                        <span>웹 동적 & 애니메이션 설계</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon_graph">
+                                        <img src="./images/icon_graph_ex.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <em>J-Query</em>
+                                        <span>간단한 웹 동적 기능</span>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                        <ul class="detail">
-                            <li>
-                                <img src="./images/calender.png" alt="">
-                                <em>Birth</em>
-                                <span>1994. 11. 20</span>
-                            </li>
-                            <li>
-                                <img src="./images/mobile.png" alt="">
-                                <em>Mobile</em>
-                                <span>010 - 3000 - 9030</span>
-                            </li>
-                            <li>
-                                <img src="./images/mail.png" alt="">
-                                <em>E - mail</em>
-                                <span>scrin012 @ gmail.com</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="abil_contents">
-                        <p class="contents_title">Abilities ;</p>
-                        <ul class="abil_wrap">
-                            <li>
-                                <div class="icon_graph">
-                                    <img src="./images/icon_graph_ex.png" alt="">
-                                </div>
-                                <div class="txt">
-                                    <em>UI/UX</em>
-                                    <span>사용자 리서치, 레퍼런스 조사 분석</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon_graph">
-                                    <img src="./images/icon_graph_ex.png" alt="">
-                                </div>
-                                <div class="txt">
-                                    <em>Figma</em>
-                                    <span>UIUX 와이어프레임, 프로토타입 설계</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon_graph">
-                                    <img src="./images/icon_graph_ex.png" alt="">
-                                </div>
-                                <div class="txt">
-                                    <em>Photoshop</em>
-                                    <span>웹, 배너광고, 상세 디자인 제작</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon_graph">
-                                    <img src="./images/icon_graph_ex.png" alt="">
-                                </div>
-                                <div class="txt">
-                                    <em>Illustrator</em>
-                                    <span>로고, 캐릭터 디자인 제작</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon_graph">
-                                    <img src="./images/icon_graph_ex.png" alt="">
-                                </div>
-                                <div class="txt">
-                                    <em>HTML5</em>
-                                    <span>웹표준 기준 마크업 설계</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon_graph">
-                                    <img src="./images/icon_graph_ex.png" alt="">
-                                </div>
-                                <div class="txt">
-                                    <em>CSS3</em>
-                                    <span>반응형 웹부터 애니메이션까지 다양한 디자인</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon_graph">
-                                    <img src="./images/icon_graph_ex.png" alt="">
-                                </div>
-                                <div class="txt">
-                                    <em>Javascript</em>
-                                    <span>웹 동적 & 애니메이션 설계</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon_graph">
-                                    <img src="./images/icon_graph_ex.png" alt="">
-                                </div>
-                                <div class="txt">
-                                    <em>J-Query</em>
-                                    <span>간단한 웹 동적 기능</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="career_edu_contents">
-                        <div class="title_wrap">
-                            <p class="contents_title">Career ;</p>
-                            <p class="contents_title">Education ;</p>
+                        <div class="career_edu_contents">
+                            <div class="title_wrap">
+                                <p class="contents_title">Career ;</p>
+                                <p class="contents_title">Education ;</p>
+                            </div>
+                            <ul class="year_wrap">
+                                <li class="edu">
+                                    <em>그린컴퓨터아카데미</em>
+                                    <em>UI/UX 반응형 웹디자인 & 웹 퍼블리셔</em>
+                                    <em>취업 양성과정</em>
+                                    <span>2024. 10 ~ 2025. 03</span>
+                                </li>
+                                <li class="career">
+                                    <em>주식회사 라라페</em>
+                                    <span>2024. 01 ~ 2024. 07</span>
+                                </li>
+                                <li class="career">
+                                    <em>프리랜서 / 타투이스트</em>
+                                    <span>2019. 06 ~ 2023. 09</span>
+                                </li>
+                                <li class="career">
+                                    <em>이노비젼테크</em>
+                                    <span>2015. 09 ~ 2016. 12</span>
+                                </li>
+                                <li class="edu">
+                                    <em>한성대학교 디자인아트평생교육원</em>
+                                    <em>시각디자인과</em>
+                                    <span>2013. 03 ~ 2014. 06</span>
+                                </li>
+                                <li class="edu">
+                                    <em>전주기전여자고등학교</em>
+                                    <span>2010. 02 ~ 2013. 02</span>
+                                </li>
+                            </ul>
+                            <div class="year_dot"></div>
                         </div>
-                        <ul class="year_wrap">
-                            <li class="edu">
-                                <em>그린컴퓨터아카데미</em>
-                                <em>UI/UX 반응형 웹디자인 & 웹 퍼블리셔</em>
-                                <em>취업 양성과정</em>
-                                <span>2024. 10 ~ 2025. 03</span>
-                            </li>
-                            <li class="career">
-                                <em>주식회사 라라페</em>
-                                <span>2024. 01 ~ 2024. 07</span>
-                            </li>
-                            <li class="career">
-                                <em>프리랜서 / 타투이스트</em>
-                                <span>2019. 06 ~ 2023. 09</span>
-                            </li>
-                            <li class="career">
-                                <em>이노비젼테크</em>
-                                <span>2015. 09 ~ 2016. 12</span>
-                            </li>
-                            <li class="edu">
-                                <em>한성대학교 디자인아트평생교육원</em>
-                                <em>시각디자인과</em>
-                                <span>2013. 03 ~ 2014. 06</span>
-                            </li>
-                            <li class="edu">
-                                <em>전주기전여자고등학교</em>
-                                <span>2010. 02 ~ 2013. 02</span>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 <!-- =========================================== uiux 01 -->
-                <div class="swiper-slide uiux" id="uiux_01"></div>
+                <div class="swiper-slide uiux" id="uiux_01">
+                    <div class="slide_container">
+                        <div class="info_contents">
+                            <div class="info_top">
+                                <dl class="title_wrap">
+                                    <dt>WEB ReDesign Project</dt>
+                                    <dd>지오다노</dd>
+                                    <dd>사이트 리뉴얼 디자인</dd>
+                                </dl>
+                                <dl class="concept_wrap">
+                                    <dt>CONCEPT</dt>
+                                    <dd>기존 사이트의 UI/UX 개선</dd>
+                                    <dd>브랜드 쇼핑몰 이미지 강화</dd>
+                                    <dd>1920 - 1600 - 480 반응형 웹 가능</dd>
+                                    <dd>총 3 페이지 구성 <span>- 메인 페이지 (index), 상품 리스트 (list), 상품 페이지 (detail)</span></dd>
+                                </dl>
+                                <dl class="tool_wrap">
+                                    <dt>TOOL</dt>
+                                    <dd>제작 : Figma, Photoshop, HTML5, CSS3, JAVASCRIPT</dd>
+                                    <dd>기획 및 버전 관리 : GitHub, Notion</dd>
+                                </dl>
+                                <dl class="period_wrap pe_con_wrap">
+                                    <dt>프로젝트 기간</dt>
+                                    <dd>: 2주</dd>
+                                </dl>
+                                <dl class="contribution_wrap pe_con_wrap">
+                                    <dt>디자인 기여도</dt>
+                                    <dd>: 100%</dd>
+                                </dl>
+                                <div class="link_btn_wrap">
+                                    <a href="https://crh12.github.io/giordano/" target="_blank">프로토타입 결과</a>
+                                    <a href="https://www.figma.com/design/Ym3YkXKGj7pqjG66hx5vl4/%EC%A7%80%EC%98%A4%EB%8B%A4%EB%85%B8?m=auto&t=bfK9RrV5ZhMEl5nw-6" target="_blank">UIUX 기획</a>
+                                    <a href="https://www.giordano.co.kr/" target="_blank">원본사이트 (Before)</a>
+                                </div>
+                            </div>
+                            <div class="info_bottom">
+                                <div class="btm_left">
+                                    <dl class="font_wrap">
+                                        <dt>FONT</dt>
+                                        <dd>Noto Sans KR</dd>
+                                    </dl>
+                                    <dl class="icon_wrap">
+                                        <dt>ICON</dt>
+                                        <dd>
+                                            <img src="./images/icon_search.png" alt="검색 아이콘">
+                                            <img src="./images/icon_user.png" alt="로그인 아이콘">
+                                            <img src="./images/icon_cart.png" alt="장바구니 아이콘">
+                                            <img src="./images/icon_share.png" alt="공유 아이콘">
+                                            <img src="./images/icon_share_url.png" alt="링크 아이콘">
+                                            <img src="./images/icon_star.png" alt="리뷰 아이콘">
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="btm_right">
+                                    <dl class="color_wrap">
+                                        <dt>COLOR</dt>
+                                        <dd>
+                                            <span class="color_dot"></span>
+                                            <span class="color_name">#AA1721</span>
+                                        </dd>
+                                        <dd>
+                                            <span class="color_dot"></span>
+                                            <span class="color_name">#CA9155</span>
+                                        </dd>
+                                        <dd>
+                                            <span class="color_dot"></span>
+                                            <span class="color_name">#999</span>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mockup_contents">
+                            <img src="./images/mockup_01.png" alt="지오다노 목업 이미지">
+                        </div>
+                    </div>
+                </div>
                 <!-- =========================================== uiux 02 -->
-                <div class="swiper-slide uiux" id="uiux_02"></div>
+                <div class="swiper-slide uiux" id="uiux_02">
+                    <div class="slide_container">
+                        <div class="info_contents">
+                            <div class="info_top">
+                                <dl class="title_wrap">
+                                    <dt>WEB ReDesign Project</dt>
+                                    <dd>마켓비</dd>
+                                    <dd>사이트 리뉴얼 디자인</dd>
+                                </dl>
+                                <dl class="concept_wrap">
+                                    <dt>CONCEPT</dt>
+                                    <dd>기존 사이트의 UI/UX 개선</dd>
+                                    <dd>브랜드 쇼핑몰 이미지 강화</dd>
+                                    <dd>1920 - 1600 - 480 반응형 웹 가능</dd>
+                                    <dd>총 3 페이지 구성 <span>- 메인 페이지 (index), 상품 리스트 (list), 상품 페이지 (detail)</span></dd>
+                                </dl>
+                                <dl class="tool_wrap">
+                                    <dt>TOOL</dt>
+                                    <dd>제작 : Figma, Photoshop, HTML5, CSS3, JAVASCRIPT</dd>
+                                    <dd>기획 및 버전 관리 : GitHub, Notion</dd>
+                                </dl>
+                                <dl class="period_wrap pe_con_wrap">
+                                    <dt>프로젝트 기간</dt>
+                                    <dd>: 2주</dd>
+                                </dl>
+                                <dl class="contribution_wrap pe_con_wrap">
+                                    <dt>디자인 기여도</dt>
+                                    <dd>: 100%</dd>
+                                </dl>
+                                <div class="link_btn_wrap">
+                                    <a href="#" target="_blank">프로토타입 결과</a>
+                                    <a href="https://www.figma.com/design/y0PHtmYHW3uld7zFBzXPRP/%EB%A7%88%EC%BC%93%EB%B9%84-%EB%A6%AC%EB%94%94%EC%9E%90%EC%9D%B8?node-id=1-7&t=rZ4tCH0c5v6qkliu-1" target="_blank">UIUX 기획</a>
+                                    <a href="https://marketb.kr/" target="_blank">원본사이트 (Before)</a>
+                                </div>
+                            </div>
+                            <div class="info_bottom">
+                                <div class="btm_left">
+                                    <dl class="font_wrap">
+                                        <dt>FONT</dt>
+                                        <dd>Noto Sans KR</dd>
+                                    </dl>
+                                    <dl class="icon_wrap">
+                                        <dt>ICON</dt>
+                                        <dd>
+                                            <img src="./images/icon_search.png" alt="검색 아이콘">
+                                            <img src="./images/icon_user.png" alt="로그인 아이콘">
+                                            <img src="./images/icon_cart.png" alt="장바구니 아이콘">
+                                            <img src="./images/icon_share.png" alt="공유 아이콘">
+                                            <img src="./images/icon_share_url.png" alt="링크 아이콘">
+                                            <img src="./images/icon_star.png" alt="리뷰 아이콘">
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="btm_right">
+                                    <dl class="color_wrap">
+                                        <dt>COLOR</dt>
+                                        <dd>
+                                            <span class="color_dot"></span>
+                                            <span class="color_name">#284F37</span>
+                                        </dd>
+                                        <dd>
+                                            <span class="color_dot"></span>
+                                            <span class="color_name">#EB3831</span>
+                                        </dd>
+                                        <dd>
+                                            <span class="color_dot"></span>
+                                            <span class="color_name">#030000</span>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mockup_contents">
+                            <img src="./images/mockup_02.png" alt="마켓비 목업 이미지">
+                        </div>
+                    </div>
+                </div>
                 <!-- =========================================== uiux 03 -->
-                <div class="swiper-slide uiux" id="uiux_03"></div>
+                <div class="swiper-slide uiux" id="uiux_03">
+                    <div class="slide_container">
+                        <div class="info_contents">
+                            <div class="info_top">
+                                <dl class="title_wrap">
+                                    <dt>WEB ReDesign Project</dt>
+                                    <dd>아이러브제이</dd>
+                                    <dd>사이트 리뉴얼 디자인</dd>
+                                </dl>
+                                <dl class="concept_wrap">
+                                    <dt>CONCEPT</dt>
+                                    <dd>기존 사이트의 UI/UX 개선</dd>
+                                    <dd>브랜드 쇼핑몰 이미지 강화</dd>
+                                    <dd>1920 - 1600 - 480 반응형 웹 가능</dd>
+                                    <dd>총 3 페이지 구성 <span>- 메인 페이지 (index), 상품 리스트 (list), 상품 페이지 (detail)</span></dd>
+                                </dl>
+                                <dl class="tool_wrap">
+                                    <dt>TOOL</dt>
+                                    <dd>제작 : Figma, Photoshop, HTML5, CSS3, JAVASCRIPT</dd>
+                                    <dd>기획 및 버전 관리 : GitHub, Notion</dd>
+                                </dl>
+                                <dl class="period_wrap pe_con_wrap">
+                                    <dt>프로젝트 기간</dt>
+                                    <dd>: 2주</dd>
+                                </dl>
+                                <dl class="contribution_wrap pe_con_wrap">
+                                    <dt>디자인 기여도</dt>
+                                    <dd>: 100%</dd>
+                                </dl>
+                                <div class="link_btn_wrap">
+                                    <a href="#" target="_blank">프로토타입 결과</a>
+                                    <a href="https://www.figma.com/design/ZxBjhqfZAtVMBSCsaRjERS/%EC%95%84%EC%9D%B4%EB%9F%AC%EB%B8%8C%EC%A0%9C%EC%9D%B4-%EB%A6%AC%EB%94%94%EC%9E%90%EC%9D%B8?node-id=0-1&t=pN1oK3YOPccooFi6-1" target="_blank">UIUX 기획</a>
+                                    <a href="https://www.ilovej.net/index.html" target="_blank">원본사이트 (Before)</a>
+                                </div>
+                            </div>
+                            <div class="info_bottom">
+                                <div class="btm_left">
+                                    <dl class="font_wrap">
+                                        <dt>FONT</dt>
+                                        <dd>Noto Sans KR</dd>
+                                    </dl>
+                                    <dl class="icon_wrap">
+                                        <dt>ICON</dt>
+                                        <dd>
+                                            <img src="./images/icon_search.png" alt="검색 아이콘">
+                                            <img src="./images/icon_user.png" alt="로그인 아이콘">
+                                            <img src="./images/icon_cart.png" alt="장바구니 아이콘">
+                                            <img src="./images/icon_share.png" alt="공유 아이콘">
+                                            <img src="./images/icon_share_url.png" alt="링크 아이콘">
+                                            <img src="./images/icon_star.png" alt="리뷰 아이콘">
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="btm_right">
+                                    <dl class="color_wrap">
+                                        <dt>COLOR</dt>
+                                        <dd>
+                                            <span class="color_dot"></span>
+                                            <span class="color_name">#FF852B</span>
+                                        </dd>
+                                        <dd>
+                                            <span class="color_dot"></span>
+                                            <span class="color_name">#F74A36</span>
+                                        </dd>
+                                        <dd>
+                                            <span class="color_dot"></span>
+                                            <span class="color_name">#FB91B4</span>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mockup_contents">
+                            <img src="./images/mockup_03.png" alt="아이러브제이 목업 이미지">
+                        </div>
+                    </div>
+                </div>
                 <!-- =========================================== uiux 04 -->
-                <div class="swiper-slide uiux" id="uiux_04"></div>
+                <div class="swiper-slide uiux" id="uiux_04">
+                    <div class="slide_container">
+                        <div class="info_contents">
+                            <div class="info_top">
+                                <dl class="title_wrap">
+                                    <dt>WEB ReDesign Project</dt>
+                                    <dd>매일유업</dd>
+                                    <dd>사이트 리뉴얼 디자인</dd>
+                                </dl>
+                                <dl class="concept_wrap">
+                                    <dt>CONCEPT</dt>
+                                    <dd>기존 사이트의 UI/UX 개선</dd>
+                                    <dd>브랜드 쇼핑몰 이미지 강화</dd>
+                                    <dd>1920 - 1600 - 480 반응형 웹 가능</dd>
+                                    <dd>총 3 페이지 구성 <span>- 메인 페이지 (index), 상품 리스트 (list), 상품 페이지 (detail)</span></dd>
+                                </dl>
+                                <dl class="tool_wrap">
+                                    <dt>TOOL</dt>
+                                    <dd>제작 : Figma, Photoshop, HTML5, CSS3, JAVASCRIPT</dd>
+                                    <dd>기획 및 버전 관리 : GitHub, Notion</dd>
+                                </dl>
+                                <dl class="period_wrap pe_con_wrap">
+                                    <dt>프로젝트 기간</dt>
+                                    <dd>: 2주</dd>
+                                </dl>
+                                <dl class="contribution_wrap pe_con_wrap">
+                                    <dt>디자인 기여도</dt>
+                                    <dd>: 100%</dd>
+                                </dl>
+                                <div class="link_btn_wrap">
+                                    <a href="#" target="_blank">프로토타입 결과</a>
+                                    <a href="https://www.figma.com/design/LehEwj4c0tGRNE6P7SZWka/%EB%A7%A4%EC%9D%BC%EC%9C%A0%EC%97%85-%EB%A6%AC%EB%94%94%EC%9E%90%EC%9D%B8?node-id=1-6&t=1ysnJOKXAl3TOggp-1" target="_blank">UIUX 기획</a>
+                                    <a href="https://www.maeil.com/" target="_blank">원본사이트 (Before)</a>
+                                </div>
+                            </div>
+                            <div class="info_bottom">
+                                <div class="btm_left">
+                                    <dl class="font_wrap">
+                                        <dt>FONT</dt>
+                                        <dd>Pretendard</dd>
+                                    </dl>
+                                    <dl class="icon_wrap">
+                                        <dt>ICON</dt>
+                                        <dd>
+                                            <img src="./images/icon_search.png" alt="검색 아이콘">
+                                            <img src="./images/icon_user.png" alt="로그인 아이콘">
+                                            <img src="./images/icon_cart.png" alt="장바구니 아이콘">
+                                            <img src="./images/icon_share.png" alt="공유 아이콘">
+                                            <img src="./images/icon_share_url.png" alt="링크 아이콘">
+                                            <img src="./images/icon_star.png" alt="리뷰 아이콘">
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="btm_right">
+                                    <dl class="color_wrap">
+                                        <dt>COLOR</dt>
+                                        <dd>
+                                            <span class="color_dot"></span>
+                                            <span class="color_name">#194E92</span>
+                                        </dd>
+                                        <dd>
+                                            <span class="color_dot"></span>
+                                            <span class="color_name">#14B4E3</span>
+                                        </dd>
+                                        <dd>
+                                            <span class="color_dot"></span>
+                                            <span class="color_name">#666</span>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mockup_contents">
+                            <img src="./images/mockup_04.png" alt="매일유업 목업 이미지">
+                        </div>
+                    </div>
+                </div>
                 <!-- =========================================== graphic -->
-                <div class="swiper-slide" id="graphic"></div>
+                <div class="swiper-slide" id="graphic">
+                    <div class="slide_container">
+                        <div class="left_contents">
+                            <div class="info_top">
+                                <dl class="title_wrap">
+                                    <dt>Graphic Design</dt>
+                                    <dd>상세페이지, SNS 광고, 배너 디자인</dd>
+                                </dl>
+                                <dl class="tool_wrap">
+                                    <dt>TOOL</dt>
+                                    <dd>Photoshop, Illustration</dd>
+                                </dl>
+                            </div>
+                            <div class="swiper sns_swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide sns_01"></div>
+                                    <div class="swiper-slide sns_02"></div>
+                                    <div class="swiper-slide sns_03"></div>
+                                    <div class="swiper-slide sns_04"></div>
+                                    <div class="swiper-slide sns_05"></div>
+                                </div>
+                            </div>
+                            <div class="swiper bnr_swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide bnr_01"></div>
+                                    <div class="swiper-slide bnr_02"></div>
+                                    <div class="swiper-slide bnr_03"></div>
+                                    <div class="swiper-slide bnr_04"></div>
+                                    <div class="swiper-slide bnr_05"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right_contents">
+                            <div class="swiper detailed_swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide detailed_01"></div>
+                                    <div class="swiper-slide detailed_02"></div>
+                                    <div class="swiper-slide detailed_03"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
