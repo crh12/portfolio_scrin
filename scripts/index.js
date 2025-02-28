@@ -85,7 +85,7 @@ sns.forEach((target, index)=>{
     popup_bg.children[0].children[0].style.width = 'auto';
     popup_bg.children[0].children[0].style.height = '100%';
     popup_bg.children[0].style.overflow = 'hidden';
-    popup_bg.children[0].style.width = '600px';
+    popup_bg.children[0].style.width = 'max-content';
     popup_bg.children[0].style.marginTop = '100px';
   })
 });
