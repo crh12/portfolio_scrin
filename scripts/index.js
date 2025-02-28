@@ -82,6 +82,9 @@ sns.forEach((target, index)=>{
     popup_bg.style.display = 'block';
     popup_bg.children[0].scrollTo(0,0);
     popup_bg.children[0].children[0].src = `./images/sns_0${index + 1}.jpg`;
+    popup_bg.children[0].children[0].style.width = 'auto';
+    popup_bg.children[0].children[0].style.height = '100%';
+    popup_bg.children[0].style.overflow = 'hidden';
     popup_bg.children[0].style.width = '600px';
     popup_bg.children[0].style.marginTop = '100px';
   })
@@ -92,6 +95,9 @@ bnr.forEach((target, index)=>{
     popup_bg.style.display = 'block';
     popup_bg.children[0].scrollTo(0,0);
     popup_bg.children[0].children[0].src = `./images/bnr_0${index + 1}.jpg`;
+    popup_bg.children[0].children[0].style.width = '100%';
+    popup_bg.children[0].children[0].style.height = 'auto';
+    popup_bg.children[0].style.overflow = 'auto';
     popup_bg.children[0].style.width = '900px';
     popup_bg.children[0].style.marginTop = '250px';
   })
@@ -102,7 +108,10 @@ detail.forEach((target, index)=>{
     popup_bg.style.display = 'block';
     popup_bg.children[0].scrollTo(0,0);
     popup_bg.children[0].children[0].src = `./images/detail_0${index + 1}.jpg`;
-    popup_bg.children[0].style.width = '500px';
+    popup_bg.children[0].children[0].style.width = '100%';
+    popup_bg.children[0].children[0].style.height = 'auto';
+    popup_bg.children[0].style.overflow = 'auto';
+    popup_bg.children[0].style.width = '700px';
     popup_bg.children[0].style.marginTop = '100px';
   })
 });
