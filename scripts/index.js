@@ -1,4 +1,5 @@
 const logo = document.querySelector('header a')
+const nav = document.querySelectorAll('nav a')
 const contentTitle = document.querySelector('header .hd_bg p');
 const roundTxt = document.querySelector('.round_txt_wrap');
 const circle = document.querySelectorAll('.abil .circle');
@@ -11,7 +12,21 @@ popup_bg.style.display = 'none';
 
 logo.addEventListener('click', ()=>{
   mSwiper.slideTo(0);
-})
+});
+
+nav[0].addEventListener('click', ()=>{
+  mSwiper.slideTo(1);
+});
+
+nav[1].addEventListener('click', ()=>{
+  mSwiper.slideTo(2);
+});
+
+nav[2].addEventListener('click', ()=>{
+  mSwiper.slideTo(6);
+});
+
+
 
 function titleChange(name){
   setTimeout(function(){contentTitle.style.transform = 'translateX(calc(100% + 1px))'}, 0)
