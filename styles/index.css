@@ -1,4 +1,4 @@
-body {width: 1600px; margin: 0 auto;}/* 반응형 제작 시 width 삭제 */
+body {min-width: 1600px; margin: 0 auto;}/* 반응형 제작 시 width 삭제 */
 /* ======================================================= 헤더 */
 header {padding: 0 80px;}
 header .hd_bg {
