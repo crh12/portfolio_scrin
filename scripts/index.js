@@ -76,7 +76,7 @@ const snsSwiper = new Swiper('.sns_swiper', {
   autoplay:{delay:0,},
   loop:true,
   speed:6000,
-  slidesPerView:2.5,
+  slidesPerView:3.2,
 });
 
 const bnrSwiper = new Swiper('.bnr_swiper', {

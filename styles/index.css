@@ -253,7 +253,7 @@ main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .sns_swiper .swiper-wrapper {transition-timing-function:linear;}
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .sns_swiper .swiper-wrapper .swiper-slide {cursor: pointer;}
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .sns_swiper .swiper-wrapper .swiper-slide img {width: 100%;}
-main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .bnr_swiper {width: 100%; height: 160px;}
+main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .bnr_swiper {width: 100%; height: 140px;}
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .bnr_swiper .swiper-wrapper {transition-timing-function:linear;}
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .bnr_swiper .swiper-wrapper .swiper-slide {cursor: pointer;}
 main .m_swiper .swiper-wrapper #graphic .slide_container .left_contents .swiper_wrap .bnr_swiper .swiper-wrapper .swiper-slide img {width: 100%;}
