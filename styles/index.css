@@ -236,6 +236,8 @@ main .m_swiper .swiper-wrapper #uiux_04 .slide_container .info_contents .info_bo
 main .m_swiper .swiper-wrapper #uiux_04 .slide_container .info_contents .info_bottom .btm_right .color_wrap dd:nth-of-type(2) .color_dot {background-color: #14B4E3;}
 main .m_swiper .swiper-wrapper #uiux_04 .slide_container .info_contents .info_bottom .btm_right .color_wrap dd:nth-of-type(3) .color_dot {background-color: #666;}
 main .m_swiper .swiper-wrapper #uiux_04 .slide_container .mockup_contents::after {background: linear-gradient(90deg, #6681A3, transparent);}
+main .m_swiper .swiper-wrapper #uiux_04 .slide_container .info_contents .info_bottom .btm_left .icon_wrap dd img {filter: invert(1);}
+main .m_swiper .swiper-wrapper #uiux_04 .slide_container .info_contents .info_bottom .btm_left .icon_wrap dd img:last-child {filter: invert(0);}
 /* ======================================================= graphic */
 main .m_swiper .swiper-wrapper #graphic {}
 main .m_swiper .swiper-wrapper #graphic .swiper {} /* 스와이퍼 공통 */
