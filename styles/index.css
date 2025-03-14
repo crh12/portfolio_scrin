@@ -6,11 +6,10 @@ header .hd_bg {
   display: flex; justify-content: space-between; align-items: center; overflow: hidden;
 }
 header .hd_bg h1 {}
-header .hd_bg h1 a {display: flex; align-items: center; font-size: 0.94rem; letter-spacing: -0.02em;}
-header .hd_bg h1 a img {width: 24px; height: 24px; margin-right: 6px;}
-header .hd_bg h1 a span {line-height: 15px;}
+header .hd_bg h1 a {display: block; font-size: 0.94rem; letter-spacing: -0.02em; line-height: 24px;}
 header .hd_bg nav {position: absolute; left: 50%; top: 20px; transform: translateX(-50%); display: flex;}
 header .hd_bg nav a {display: flex; align-items: center; margin-right: 12px; flex-flow: column; width: 30px;}
+header .hd_bg nav a:last-child {margin: 0;}
 header .hd_bg nav a img {width: 24px; height: 24px; margin-bottom: 6px; opacity: 20%; transition: opacity 0.4s;}
 header .hd_bg nav a:hover img {opacity: 100%;}
 header .hd_bg nav a span {font-size: 0.94rem; transform: scaleX(0) translateX(-2px); transform-origin: center center; transition: transform 0.4s;}
@@ -37,14 +36,14 @@ main .m_swiper .swiper-wrapper .swiper-slide .slide_container {width: 100%; max-
 /* ======================================================= index */
 main .m_swiper .swiper-wrapper #index {}
 main .m_swiper .swiper-wrapper #index .slide_container {padding-bottom: 24.5px; display: flex; flex-flow: column nowrap;}
-main .m_swiper .swiper-wrapper #index .slide_container .title {height: 100%; display: flex; flex-flow: column nowrap; justify-content: center;}
-main .m_swiper .swiper-wrapper #index .slide_container .title p {font-size: 1.25rem; font-weight: 500; letter-spacing: -0.02em; margin-bottom: 10px;}
+main .m_swiper .swiper-wrapper #index .slide_container .title {margin-top: 10%;}
+main .m_swiper .swiper-wrapper #index .slide_container .title p {font-size: 1.25rem; font-weight: 500; letter-spacing: -0.02em; margin-bottom: 10px; text-align: center;}
 main .m_swiper .swiper-wrapper #index .slide_container .title p:last-child {margin: 0;}
 main .m_swiper .swiper-wrapper #index .slide_container .title .sub_t1 {font-size: 1.88rem; margin-bottom: 30px;}
 main .m_swiper .swiper-wrapper #index .slide_container .title .sub_t2 {font-size: 5rem;  margin-bottom: 30px;}
-main .m_swiper .swiper-wrapper #index .slide_container .title h1 {font-size: 6.25rem; font-weight: 700; line-height: 1.05; margin-bottom: 30px; font-family: SCoreDream;}
+main .m_swiper .swiper-wrapper #index .slide_container .title h1 {font-size: 6.25rem; font-weight: 700; line-height: 1.05; margin-bottom: 30px; font-family: SCoreDream; text-align: center;}
 main .m_swiper .swiper-wrapper #index .slide_container .btm {width: 100%;}
-main .m_swiper .swiper-wrapper #index .slide_container .btm p {font-size: 0.94rem; letter-spacing: -0.02em;}
+main .m_swiper .swiper-wrapper #index .slide_container .btm p {font-size: 0.94rem; letter-spacing: -0.02em; }
 main .m_swiper .swiper-wrapper #index .slide_container .btm .contact_name {font-weight: 600; margin-bottom: 10px;}
 main .m_swiper .swiper-wrapper #index .slide_container .btm .contact_email {}
 /* ======================================================= profile */

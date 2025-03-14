@@ -4,8 +4,8 @@ aside .round_txt_wrap {animation: rotate360 30s linear infinite;}
 /* ======================================================= 원형 로딩 개별 */
 main .m_swiper .swiper-wrapper #profile .slide_container .abil_contents .abil_wrap .abil_uiux .icon svg circle.circle {animation: circle80 2s 0.5s ease both;}
 main .m_swiper .swiper-wrapper #profile .slide_container .abil_contents .abil_wrap .abil_figma .icon svg circle.circle {animation: circle80 2s 0.5s ease both;}
-main .m_swiper .swiper-wrapper #profile .slide_container .abil_contents .abil_wrap .abil_ps .icon svg circle.circle {animation: circle30 2s 0.5s ease both;}
-main .m_swiper .swiper-wrapper #profile .slide_container .abil_contents .abil_wrap .abil_ai .icon svg circle.circle {animation: circle30 2s 0.5s ease both;}
+main .m_swiper .swiper-wrapper #profile .slide_container .abil_contents .abil_wrap .abil_ps .icon svg circle.circle {animation: circle80 2s 0.5s ease both;}
+main .m_swiper .swiper-wrapper #profile .slide_container .abil_contents .abil_wrap .abil_ai .icon svg circle.circle {animation: circle50 2s 0.5s ease both;}
 main .m_swiper .swiper-wrapper #profile .slide_container .abil_contents .abil_wrap .abil_html .icon svg circle.circle {animation: circle80 2s 0.5s ease both;}
 main .m_swiper .swiper-wrapper #profile .slide_container .abil_contents .abil_wrap .abil_css .icon svg circle.circle {animation: circle80 2s 0.5s ease both;}
 main .m_swiper .swiper-wrapper #profile .slide_container .abil_contents .abil_wrap .abil_js .icon svg circle.circle {animation: circle50 2s 0.5s ease both;}
