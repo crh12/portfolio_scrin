@@ -27,7 +27,6 @@ nav[2].addEventListener('click', ()=>{
 });
 
 
-
 function titleChange(name){
   setTimeout(function(){contentTitle.style.transform = 'translateX(calc(100% + 1px))'}, 0)
           setTimeout(function(){
@@ -98,10 +97,10 @@ sns.forEach((target, index)=>{
     popup_bg.children[0].scrollTo(0,0);
     popup_bg.children[0].children[0].src = `./images/sns_0${index + 1}.jpg`;
     popup_bg.children[0].children[0].style.width = 'auto';
-    popup_bg.children[0].children[0].style.height = '100%';
+    popup_bg.children[0].children[0].style.height = '85%';
     popup_bg.children[0].style.overflow = 'hidden';
     popup_bg.children[0].style.width = 'max-content';
-    popup_bg.children[0].style.marginTop = '100px';
+    popup_bg.children[0].style.marginTop = '120px';
   })
 });
 
@@ -126,8 +125,8 @@ detail.forEach((target, index)=>{
     popup_bg.children[0].children[0].style.width = '100%';
     popup_bg.children[0].children[0].style.height = 'auto';
     popup_bg.children[0].style.overflow = 'auto';
-    popup_bg.children[0].style.width = '700px';
-    popup_bg.children[0].style.marginTop = '100px';
+    popup_bg.children[0].style.width = '600px';
+    popup_bg.children[0].style.marginTop = '80px';
   })
 });
 
